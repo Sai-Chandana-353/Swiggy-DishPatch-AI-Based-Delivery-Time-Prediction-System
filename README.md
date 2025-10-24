@@ -30,24 +30,24 @@ This helps food delivery platforms like **Swiggy** and **Zomato** enhance operat
 
 ## 📁 Project Structure
 
-Swiggy-DishPatch/
-│
-├── data/
-│ ├── orders.csv
-│ └── traffic_data.csv
-│
-├── models/
-│ ├── rf_model.pkl
-│ └── xgb_model.pkl
-│
-├── static/
-│ ├── style.css
-│ └── script.js
-│
-├── templates/
-│ └── index.html
-│
-├── app.py
-├── model_training.ipynb
-└── README.md
+        Swiggy-DishPatch
+              │
+    ┌─────────┼─────────┐
+    │         │         │
+   data     models    static
+    │         │         │
+ ┌──┴──┐   ┌──┴──┐   ┌──┴──┐
+orders.csv  rf_model.pkl  style.css
+traffic_data.csv  xgb_model.pkl  script.js
+
+    │
+ templates
+    │
+ index.html
+
+    │
+ app.py
+ model_training.ipynb
+ README.md
+
 
