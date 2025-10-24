@@ -28,11 +28,26 @@ This helps food delivery platforms like **Swiggy** and **Zomato** enhance operat
 ![Screenshot](images/screenshot2.png)
 ![Screenshot](images/screenshot1.png)
 
-
-
-
-
-
-
 ## 📁 Project Structure
+
+Swiggy-DishPatch/
+│
+├── data/
+│ ├── orders.csv
+│ └── traffic_data.csv
+│
+├── models/
+│ ├── rf_model.pkl
+│ └── xgb_model.pkl
+│
+├── static/
+│ ├── style.css
+│ └── script.js
+│
+├── templates/
+│ └── index.html
+│
+├── app.py
+├── model_training.ipynb
+└── README.md
 
