@@ -25,7 +25,9 @@ This helps food delivery platforms like **Swiggy** and **Zomato** enhance operat
 ---
 
 ## IMAGES
+![Screenshot](images/screenshot2.png)
 ![Screenshot](images/screenshot1.png)
+
 
 
 
