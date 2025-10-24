@@ -28,26 +28,56 @@ This helps food delivery platforms like **Swiggy** and **Zomato** enhance operat
 ![Screenshot](images/screenshot2.png)
 ![Screenshot](images/screenshot1.png)
 
-## 📁 Project Structure
+## Project Execution Steps
 
-        Swiggy-DishPatch
-              │
-    ┌─────────┼─────────┐
-    │         │         │
-   data     models    static
-    │         │         │
- ┌──┴──┐   ┌──┴──┐   ┌──┴──┐
-orders.csv  rf_model.pkl  style.css
-traffic_data.csv  xgb_model.pkl  script.js
+## 1️⃣ Clone the Repository
+git clone https://github.com/Sai-Chandana-353/Swiggy-DishPatch-AI-Based-Delivery-Time-Prediction-System.git
+cd Swiggy-DishPatch-AI-Based-Delivery-Time-Prediction-System
 
-    │
- templates
-    │
- index.html
+## 2️⃣ Create a Virtual Environment (Recommended)
+## For Windows:
+python -m venv venv
+venv\Scripts\activate
 
-    │
- app.py
- model_training.ipynb
- README.md
+## For Mac/Linux:
+python3 -m venv venv
+source venv/bin/activate
 
+## 3️⃣ Install Dependencies
+
+If you have a requirements.txt file:
+
+pip install -r requirements.txt
+
+
+If not, install common packages manually:
+
+pip install flask pandas numpy scikit-learn xgboost
+
+## 4️⃣ Place Your Data & Models
+
+data/ folder: Ensure orders.csv and traffic_data.csv are present.
+
+models/ folder: Ensure rf_model.pkl and xgb_model.pkl exist.
+
+static/ and templates/ folders: Should have CSS, JS, and HTML files in place.
+
+## 5️⃣ Run the Flask App
+python app.py
+
+
+By default, Flask runs at:
+
+http://127.0.0.1:5000
+
+
+Open this URL in your browser to access the web app.
+
+## 6️⃣ Interact with the App
+
+Input order details (or sample data) in the web interface.
+
+The app will use your ML models (rf_model.pkl or xgb_model.pkl) to predict delivery time.
+
+Results will display on the webpage dynamically.
 
