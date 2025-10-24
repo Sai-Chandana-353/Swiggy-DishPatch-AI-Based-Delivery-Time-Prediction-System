@@ -26,6 +26,9 @@ This helps food delivery platforms like **Swiggy** and **Zomato** enhance operat
 
 ## IMAGES
 
+images/https://github.com/Sai-Chandana-353/Swiggy-DishPatch-AI-Based-Delivery-Time-Prediction-System/blob/main/images/Screenshot%202025-10-19%20011305.png
+
+
 
 
 ## 📁 Project Structure
